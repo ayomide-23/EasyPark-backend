@@ -4,10 +4,10 @@
 // $pass = "";  
 // $dbname = "pms"; 
 
-$host = "fdb1033.awardspace.net";
-$user = "4653705_easypark";
-$pass = "aappeter1";
-$dbname = "4653705_easypark";
+$host = "sql207.infinityfree.com";
+$user = "if0_39353212";
+$pass = "LkggfblkqeGqN";
+$dbname = "if0_39353212_easypark";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
 
