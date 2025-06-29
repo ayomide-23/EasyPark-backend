@@ -1,8 +1,11 @@
 <?php
-include 'db_connect.php';
+header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomides-projects.vercel.app");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Methods: POST");
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: Authorization, Content-Type");
 header("Access-Control-Allow-Methods: POST, OPTIONS");
+include 'db_connect.php';
 
 $id = $_POST['id'] ?? null;
 

@@ -1,7 +1,10 @@
 <?php
-include 'db_connect.php';
+header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomides-projects.vercel.app");
+header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Methods: POST");
 header('Content-Type: application/json');
 header("Access-Control-Allow-Origin: *");
+include 'db_connect.php';
 
 $user_id = $_POST['user_id'] ?? null;
 $slot_number = $_POST['slot_id'] ?? null;
