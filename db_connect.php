@@ -1,9 +1,4 @@
 <?php
-// $host = "localhost";  
-// $user = "root";            
-// $pass = "";  
-// $dbname = "pms"; 
-
 $host = "sql207.infinityfree.com";
 $user = "if0_39353212";
 $pass = "LkggfblkqeGqN";
