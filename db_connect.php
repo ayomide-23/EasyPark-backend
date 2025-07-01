@@ -1,8 +1,8 @@
 <?php
-$host = "sql3.freesqldatabase.com";
-$user = "sql3787784";
-$pass = "jzigiNuX44";
-$dbname = "sql3787784";
+$host = getenv("DB_HOST");
+$user = getenv("DB_USER");
+$pass = getenv("DB_PASS");
+$dbname = getenv("DB_NAME");
 $port = 3306;
 
 $conn = new mysqli($host, $user, $pass, $dbname, $port);
