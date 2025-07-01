@@ -1,11 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomides-projects.vercel.app");
 header("Access-Control-Allow-Headers: Content-Type");
-header("Access-Control-Allow-Methods: POST");
-header('Content-Type: application/json');
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Headers: Authorization, Content-Type");
-include 'db_connect.php';
+header("Content-Type: application/json");
+header("Access-Control-Allow-Headers: Authorization");
+include '../db_connect.php';
 
 $email = $_POST['email'] ?? '';
 $new_password = $_POST['new_password'] ?? '';

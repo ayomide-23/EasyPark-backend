@@ -1,11 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomides-projects.vercel.app");
 header("Access-Control-Allow-Headers: Content-Type");
-header("Access-Control-Allow-Methods: POST");
-header('Content-Type: application/json');
-header("Access-Control-Allow-Origin: *");
-
-include 'db_connect.php';
+header("Content-Type: application/json");
+header("Access-Control-Allow-Headers: Authorization");
+include '../db_connect.php';
 
 $query = "SELECT slot_number, status FROM parking_slots";
 $result = $conn->query($query);

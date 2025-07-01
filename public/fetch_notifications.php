@@ -1,12 +1,9 @@
 <?php
 header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomides-projects.vercel.app");
 header("Access-Control-Allow-Headers: Content-Type");
-header("Access-Control-Allow-Methods: POST");
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Headers: Authorization, Content-Type");
-header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
-
-include 'db_connect.php';
+header("Content-Type: application/json");
+header("Access-Control-Allow-Headers: Authorization");
+include '../db_connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);
