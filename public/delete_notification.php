@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomide
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 header("Access-Control-Allow-Headers: Authorization");
-include '../db_connect.php';
+include 'db_connect.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     http_response_code(200);

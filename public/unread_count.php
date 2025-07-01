@@ -4,7 +4,7 @@ header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 header("Access-Control-Allow-Headers: Authorization");
 
-include '../db_connect.php';
+include 'db_connect.php';
 
 $headers = apache_request_headers();
 $authHeader = $headers['Authorization'] ?? '';

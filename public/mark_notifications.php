@@ -3,7 +3,7 @@ header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomide
 header("Access-Control-Allow-Headers: Content-Type");
 header("Content-Type: application/json");
 header("Access-Control-Allow-Headers: Authorization");
-include '../db_connect.php';
+include 'db_connect.php';
 
 $id = $_POST['id'] ?? null;
 

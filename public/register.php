@@ -15,7 +15,7 @@ header("Access-Control-Allow-Origin: https://easy-park-frontend-aderinto-ayomide
 header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Methods: POST");
 header("Content-Type: application/json; charset=utf-8");
-include '../db_connect.php';
+include 'db_connect.php';
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
