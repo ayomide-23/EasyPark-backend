@@ -49,5 +49,5 @@ cd EasyPark-backend
      ```php
            <?php
              include 'db_connect.php';
-             echo json_encode(["success" => true, "message" => "Backend working ✅"]);
+             echo json_encode(["success" => true, "message" => "Backend working"]);
    </pre>
